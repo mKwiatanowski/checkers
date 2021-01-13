@@ -7,8 +7,8 @@ public class MoveHighlightingManager {
 
     private boolean userMoveHighlighting = true;
     private boolean computerMoveHighlighting = true;
-    Button userMoveHighlightingToggleButton;
-    Button computerMoveHighlightingToggleButton;
+    private Button userMoveHighlightingToggleButton;
+    private Button computerMoveHighlightingToggleButton;
 
     public MoveHighlightingManager(Button userMoveHighlightingToggleButton, Button computerMoveHighlightingToggleButton) {
         this.userMoveHighlightingToggleButton = userMoveHighlightingToggleButton;

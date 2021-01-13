@@ -12,12 +12,12 @@ import java.util.HashMap;
 public class SaveData implements Serializable {
     private final HashMap<Position, UnitData> mapData;
     private final Team currentTeamMove;
-    boolean blackPlayerIsHuman;
-    boolean whitePlayerIsHuman;
-    boolean blackPlayersTurn;
-    boolean whitePlayersTurn;
-    Team blackPlayerTeam;
-    Team whitePlayerTeam;
+    private boolean blackPlayerIsHuman;
+    private boolean whitePlayerIsHuman;
+    private boolean blackPlayersTurn;
+    private boolean whitePlayersTurn;
+    private Team blackPlayerTeam;
+    private Team whitePlayerTeam;
     private final boolean userMoveHighlighting;
     private final boolean computerMoveHighlighting;
     private final String textAreaContent;
