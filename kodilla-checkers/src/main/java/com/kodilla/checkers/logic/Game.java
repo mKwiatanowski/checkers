@@ -2,11 +2,11 @@ package com.kodilla.checkers.logic;
 
 import com.kodilla.checkers.messages.InvalidMoveError;
 import com.kodilla.checkers.messages.WinnerMessage;
-import com.kodilla.checkers.GUI.Board;
-import com.kodilla.checkers.GUI.Background;
-import com.kodilla.checkers.GUI.MoveHighlightingManager;
-import com.kodilla.checkers.GUI.TextAreaManager;
-import com.kodilla.checkers.saveAndLoad.saveData;
+import com.kodilla.checkers.gui.Board;
+import com.kodilla.checkers.gui.Background;
+import com.kodilla.checkers.gui.MoveHighlightingManager;
+import com.kodilla.checkers.gui.TextAreaManager;
+import com.kodilla.checkers.saveAndLoad.SaveData;
 import com.kodilla.checkers.saveAndLoad.UnitData;
 import javafx.application.Platform;
 import javafx.concurrent.Task;
@@ -273,7 +273,7 @@ public class Game {
             }
         }
 
-        saveData gameSaveData = new saveData(
+        SaveData gameSaveData = new SaveData(
                 unitHashMap,
                 board.getCurrentTeam(),
                 blackPlayer.isPlayerHuman(),
@@ -299,7 +299,7 @@ public class Game {
     public void loadGame() {
         try {
             ObjectInputStream stream = new ObjectInputStream(new FileInputStream("save.txt"));
-            saveData loadData = (saveData) stream.readObject();
+            SaveData loadData = (SaveData) stream.readObject();
             stream.close();
 
             board.getWhiteUnits().getChildren().clear();

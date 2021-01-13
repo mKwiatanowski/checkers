@@ -9,7 +9,7 @@ import java.io.Serializable;
 import java.util.HashMap;
 
 
-public class saveData implements Serializable {
+public class SaveData implements Serializable {
     private final HashMap<Position, UnitData> mapData;
     private final Team currentTeamMove;
     boolean blackPlayerIsHuman;
@@ -22,7 +22,7 @@ public class saveData implements Serializable {
     private final boolean computerMoveHighlighting;
     private final String textAreaContent;
 
-    public saveData(HashMap<Position, UnitData> mapData, Team currentTeamMove, boolean blackPlayerIsHuman,
+    public SaveData(HashMap<Position, UnitData> mapData, Team currentTeamMove, boolean blackPlayerIsHuman,
                     boolean whitePlayerIsHuman, boolean blackPlayersTurn, boolean whitePlayersTurn,
                     Team blackPlayerTeam, Team whitePlayerTeam, boolean userMoveHighlighting,
                     boolean computerMoveHighlighting, String textAreaContent) {

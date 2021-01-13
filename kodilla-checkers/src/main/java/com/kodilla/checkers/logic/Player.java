@@ -1,7 +1,7 @@
 package com.kodilla.checkers.logic;
 
 
-import com.kodilla.checkers.GUI.Board;
+import com.kodilla.checkers.gui.Board;
 
 import java.util.Optional;
 

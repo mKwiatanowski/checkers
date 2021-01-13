@@ -1,7 +1,7 @@
 package com.kodilla.checkers;
 
 
-import com.kodilla.checkers.GUI.Background;
+import com.kodilla.checkers.gui.Background;
 import javafx.application.Application;
 import javafx.stage.Stage;
 

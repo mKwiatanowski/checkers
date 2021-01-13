@@ -1,4 +1,4 @@
-package com.kodilla.checkers.GUI;
+package com.kodilla.checkers.gui;
 
 
 import javafx.scene.control.Button;
