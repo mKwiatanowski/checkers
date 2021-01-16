@@ -2,7 +2,7 @@
 
 ## Description - it is a checkers game using Java FX technology.
 
-![](https://onedrive.live.com/?v=photos&cid=E38F977CFD0C9294&id=E38F977CFD0C9294%21872&parId=root&parQt=allmyphotos&o=OneUp)
+![](https://ibb.co/RCykT9H)
 
 ### Features:
 
