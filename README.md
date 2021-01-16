@@ -2,7 +2,7 @@
 
 ## Description - it is a checkers game using Java FX technology.
 
-![](https://ibb.co/RCykT9H)
+![](https://lh3.googleusercontent.com/proxy/pAiYiRQ4FbztxPtqnNhDXTJKJW8jGfIArMCsWzxCNjkNRVmSdtfP0ZI0bUOjUHHS1qQdJJMm3vTxVAO00AF088mfo6PtpPgl7P-ANfn_UCRzambKyFI5WQ)
 
 ### Features:
 

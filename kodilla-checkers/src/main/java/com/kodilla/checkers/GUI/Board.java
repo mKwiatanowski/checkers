@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class Board {
 
     private Team currentTeam;
-    private final Group GUIComponents = new Group();
+    private final Group guicomponents = new Group();
     private final Group tiles = new Group();
     private final Tile[][] board;
     private final Group blackUnits = new Group();
@@ -28,7 +28,7 @@ public class Board {
         generateBoard();
         populateBoard();
 
-        GUIComponents.getChildren().setAll(tiles, blackUnits, whiteUnits);
+        guicomponents.getChildren().setAll(tiles, blackUnits, whiteUnits);
     }
 
     public ArrayList<Move> prioritiseAttackMoves(ArrayList<Move> possibleMoves) {
@@ -116,8 +116,8 @@ public class Board {
         teamUnits.getChildren().add(unit);
     }
 
-    public Group getGUIComponents() {
-        return GUIComponents;
+    public Group getGuicomponents() {
+        return guicomponents;
     }
 
     public void resetTileColors() {

@@ -55,7 +55,7 @@ public class Game {
         board = new Board(textAreaManager, moveHighlightingManager);
         setAllUnitsLocked();
         addMouseControlToAllUnits();
-        components.getChildren().setAll(board.getGUIComponents().getChildren());
+        components.getChildren().setAll(board.getGuicomponents().getChildren());
 
         blackPlayer.resetPlayer();
         whitePlayer.resetPlayer();
